@@ -1,0 +1,43 @@
+技术(Java)
+Week1
+
+了解基本的技术和框架.
+
+    Day1, 搭建环境，JDK8 + Intellij IDEA + local MySQL + GIT + Maven 等安装.
+    Day2-3, 学习spring boot, Spring MVC, Spring Data。通过问答的方式，检查对这些框架的了解情况。
+    Day4-5, 用spring boot, Spring MVC, Spring Data做一个简单的实例，一个todolist的app，页面可以尽量简单处理，需要一个登陆页面，其他页面可以不要。通过接口来测试。
+
+Week2
+
+第一周结束以后，就可以分配git代码的权限，开始了解我们的框架。
+
+    Day1-2, 了解猎票系统使用的架构、框架，需要了解相关的框架是怎么配置的，如何起作用，如何加载等。
+        spring MVC
+        Spring Security
+        Spring Data
+        Redis Cache
+        Liqui Base
+        UnitTest
+    Day3, 通过运行UnitTest和运行系统，了解系统的启动过程，结合上面的配置了解各种框架怎么怎么作用的。
+    Day4-5, 需要了解如何编写测试用例，
+
+Week3
+
+熟悉猎票系统和代码。需要对代码的流程绘制时序图或流程图。
+
+    Day1, 熟悉猎票系统，包括后端、微信端等
+    Day2, 结合项目管理模块，了解项目管理的相关代码，从resource,到Service，再到Repository。
+    Day3, 熟悉录票模块的代码。
+    Day4-5, 熟悉交易的代码，结合交易买卖，查看交易流程: 新建卖单、新建买单、凑单、买单确认、支付、取票等。
+
+lixinqiu
+9iGE28iy5S
+http://localhost:19555/api/user/admin/authenticate?username=lixinqiu&password=9iGE28iy5S
+
+这周的培训目标是了解我们的架构和框架，并开始从业务角度了解代码。
+
+这周需要完成的是一个复杂业务场景的单元测试用例。就以促销管理(PromoteActivity )功能，编写一系列的单元测试，需要测试的流程大致如下：
+创建活动、用户行为触发活动、用户获得活动权益、用户兑换权益、查看权益。
+需要测试到主要流程，以及几个主要的分支（获得权益的两个分支：直接获得礼包、兑换票），兑换的两个分支（兑换、未兑换）等。
+
+这周五之前先完成一部分测试用例，你检查以后提交，然后再完善。
